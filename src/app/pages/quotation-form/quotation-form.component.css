@@ -1,0 +1,112 @@
+.create-new-wrapper{
+    padding: 50px 0;
+}
+.head-txt h1 {
+    color: #1a1a1a;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #33475B;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #33475b;
+    border-radius: 5px;
+    border:1px solid #cbd6e2;
+    outline: none;
+    background-color: #f5f8fa;
+  }
+  .form-group input:focus, .form-group textarea:focus {
+    border-color: rgba(82,168,236,.8);
+  }
+  .items-section {
+    margin-top: 20px;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .total-amount {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  .error {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: rgb(189, 57, 57);
+    margin-top: 4px;
+  }
+  .asteric {
+    color: rgb(189, 57, 57);
+  }
+  .top-layer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .top-layer h3 {
+    color: #1a1a1a;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  .add-btn {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    color: #33475b;
+    border-radius: 5px;
+    border:1px solid #cbd6e2;
+   padding:6px 12px;
+    background-color: #f5f8fa;
+  }
+  .bottom-layer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .blue-btn {
+    background-color: #315276;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.total-amount h3 {
+    color: #1a1a1a;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}

@@ -1,0 +1,159 @@
+
+  .detail-group {
+    padding-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .quote-detail {
+    padding: 40px 0;
+  }
+  
+  .all-quote-wrapper {
+    padding-top: 20px;
+    overflow: hidden;
+  }
+  .common-quote {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* */
+  }
+  .detail-group h3 {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+  }
+  .date-group {
+    padding-bottom: 10px;
+  }
+  .comn-padding-bx {
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+  }
+  .date-group label, .date-group span {
+    color: #777;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .total-amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .total-amount label {
+    color: #777;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .total-amount h3 {
+    color: #000;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  .set-btn {
+    color: #6583F6;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    padding: 5px 7px;
+    border: none;
+    background-color: #EBF2FE;
+    border-radius: 12px;
+  }
+  .download-pdf-bx {
+    padding: 16px;
+    text-align: center;
+  }
+  .pdf-btn {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 12px 6px;
+    color: #000;
+    font-weight: 500;
+  }
+
+.quote-tabs {
+  padding: 24px 0px;
+}
+::ng-deep .quote-tabs .mat-mdc-tab.mdc-tab {
+  flex-grow: 0 !important;
+}
+::ng-deep .quote-tabs .mdc-tab {
+  border: 1px solid #0F1729;
+  border-radius: 8px;
+  min-width: 90px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+::ng-deep .quote-tabs .mat-mdc-tab-labels {
+  gap: 15px;
+}
+::ng-deep .quote-tabs .mat-mdc-tab .mdc-tab__text-label,
+::ng-deep .quote-tabs .mat-mdc-tab.mdc-tab--active .mdc-tab__text-label,
+::ng-deep .quote-tabs .mat-mdc-tab.mdc-tab--active:focus .mdc-tab__text-label {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  padding: 6px 12px;
+
+}
+::ng-deep .quote-tabs .mdc-tab--active {
+  background-color: #0F1729;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+::ng-deep .quote-tabs .mat-mdc-tab .mdc-tab-indicator__content--underline,
+::ng-deep .quote-tabs .mat-mdc-tab-label-container {
+  border: none !important;
+}
+::ng-deep .quote-tabs .mdc-tab__content,
+::ng-deep .quote-tabs .mat-mdc-tab:not(.mdc-tab--stacked) {
+  height: auto;
+}
+#pdfContent {
+opacity: 0;
+}
+.table-wrapper {
+  padding: 20px;
+}
+.table-wrapper h3 {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.items-tble table{
+  width: 100%;
+  display: inline-table;
+  border: 1px solid #e3e3e3;
+}
+
+.items-tble table tr th {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #303030;
+  background-color: #ebebeb;
+  padding: 15px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.items-tble table tr td {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #303030;
+  padding: 8px 15px;
+  border-bottom: 1px solid #ebebeb;
+}
+.items-tble table tr:last-child td {
+  border-bottom: none;
+}
