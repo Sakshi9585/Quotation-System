@@ -1,0 +1,94 @@
+
+/* Header */
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* About Section */
+.about-container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2 {
+    font-size: 28px;
+    color: #007bff;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Features Section */
+.features {
+    margin-top: 30px;
+}
+
+.feature-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box i {
+    font-size: 40px;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.feature-box h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.feature-box p {
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+
+/* Mission Section */
+.mission {
+    margin-top: 40px;
+    padding: 20px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 8px;
+}
+
+/* CTA Section */
+.cta {
+    margin-top: 40px;
+    padding: 30px;
+    background: #28a745;
+    color: white;
+    border-radius: 8px;
+}
+
+.cta .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: white;
+    color: #28a745;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta .btn:hover {
+    background: #fff3cd;
+}

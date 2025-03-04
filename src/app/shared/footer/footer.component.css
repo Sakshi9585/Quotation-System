@@ -89,3 +89,7 @@
          opacity: 1;
      }
  }
+
+ .fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands" !important;
+}

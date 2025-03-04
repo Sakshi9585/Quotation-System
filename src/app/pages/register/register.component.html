@@ -1,0 +1,46 @@
+<!-- <h2>Register</h2>
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+  <label>Email:</label>
+  <input type="email" formControlName="email" required />
+  <br><br>
+  <label>Password:</label>
+  <input type="password" formControlName="password" required />
+  <br><br>
+  <p *ngIf="successMessage" style="color: green;">{{ successMessage }}</p>
+
+  <button type="submit" [disabled]="registerForm.invalid">Register</button>
+</form>
+<a [routerLink]="'/login'">Already have an account? Login</a> -->
+
+
+<section class="login-wrapper">
+  <div class="login-box">
+   <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+     <h2>Register</h2>
+     <div class="input-box">
+       <span class="icon">
+         <i class="fa-solid fa-envelope"></i>
+       </span>
+       <input type="emal" name="email"  formControlName="email" required>
+       <label for="">Email</label>
+     </div>
+     <div class="input-box">
+       <span class="icon">
+         <i class="fa-solid fa-lock"></i>
+       </span>
+       <input type="password" name="email" formControlName="password" required>
+       <label for="">password</label>
+     </div>
+     <div class="remember-forgot">
+      <p *ngIf="successMessage" style="color: green;">{{ successMessage }}</p>
+    </div>
+     <button type="submit" [disabled]="registerForm.invalid">Register</button>
+     <div class="link">
+       <p>
+        Already have an account?
+         <a [routerLink]="'/login'">Login</a>
+       </p>
+     </div>
+   </form>
+ </div>
+ </section>

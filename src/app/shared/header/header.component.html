@@ -1,13 +1,19 @@
 <header class="header">
-    <nav>
-      <div class="logo">
-        <a  routerLink="">QuoteGENIE</a>
-      </div>
-      <input type="checkbox" id="menu-toggle">
-      <label for="menu-toggle" class="menu-icon">&#9776;</label>
-      <ul class="menu">
-        <li><a routerLink="/quote-form" routerLinkActive="active">Quote Builder</a></li>
-        <li><a routerLink="/about" routerLinkActive="active">About</a></li> 
-      </ul>
-    </nav>
-  </header>
+  <nav>
+    <div class="logo">
+      <a routerLink="/dashboard">QuoteGENIE</a>
+    </div>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    
+    <ul class="menu">
+      <!-- Only show these when logged in -->
+      <li *ngIf="isLoggedIn"><a routerLink="/quote-form" routerLinkActive="active">Quote Builder</a></li>
+      <li *ngIf="isLoggedIn"><a routerLink="/about" routerLinkActive="active">About</a></li>
+      
+      
+      <!-- Show logout when logged in -->
+      <li *ngIf="isLoggedIn"><a href="javascript:void(0);" (click)="logout()">Logout</a></li>
+    </ul>
+  </nav>
+</header>
